@@ -1,0 +1,30 @@
+class menulist():
+    def __init__(self,i,j,k,l):
+        self.name=i
+        self.id=j
+        self.desc=k
+        self.email=l
+
+    def pg(self):
+        if "password" in k:
+            print("y")
+        else:
+            print("Not Yet Provided")
+
+
+    #def menu(self,s):
+        #self.submit=s
+        #print("Welcome to Helpdesk")
+        #print("Select from the following choices: \n 0:Exit \n 1:Submit Helpdesk ticket \n 2:Show all tickets")
+        #return s
+
+
+
+i=input("enter your name")
+j=input("enter yiur id")
+k=input("enter desc")
+l=input("enter email")
+
+
+n1=menulist(i,j,k,l)
+n1.pg()
