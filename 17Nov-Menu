@@ -1,0 +1,30 @@
+#while True:
+    #print("welcome")
+    #print("Select from the following choices: \n 0:Exit \n 1:Submit Helpdesk ticket \n 2:Show all tickets")
+
+    #selection_menu=input("enter your choice")
+def sumlist(items=[]):
+    sum = 0
+    for i in items:
+        sum += i
+
+    return sum
+
+t=sumlist([2,4,8,1])
+print(t)
+
+p=2000+t
+
+class ticket():
+    t+=1
+    print("your ticket number is :",p)
+
+     def __int__(self,re,rs,cl):
+
+         self.reopen=re[]
+         self.resolved=rs[]
+         self.closed=cl[]
+
+     def stat(self):
+         print
+
